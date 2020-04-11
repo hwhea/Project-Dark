@@ -1,0 +1,6108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e84e7ee75b88047a6cd78a08b45124, type: 3}
+  m_Name: MyPose
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: BoneDataLeft
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[BoneTransformData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 48
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: gripTrans
+    - Name: $v
+      Entry: 7
+      Data: 2|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0363
+    - Name: 
+      Entry: 4
+      Data: 0.0237
+    - Name: 
+      Entry: 4
+      Data: 0.0254
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: GrabVolumeBig
+    - Name: $v
+      Entry: 7
+      Data: 3|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0301
+    - Name: 
+      Entry: 4
+      Data: 0.0215
+    - Name: 
+      Entry: 4
+      Data: 0.0303
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: GrabVolumeSmall
+    - Name: $v
+      Entry: 7
+      Data: 4|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0047
+    - Name: 
+      Entry: 4
+      Data: -0.01449906
+    - Name: 
+      Entry: 4
+      Data: 0.03064309
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: l_hand_skeletal_lowres
+    - Name: $v
+      Entry: 7
+      Data: 5|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:hands_geom
+    - Name: $v
+      Entry: 7
+      Data: 6|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:Lhand
+    - Name: $v
+      Entry: 7
+      Data: 7|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:l_hand_world
+    - Name: $v
+      Entry: 7
+      Data: 8|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.765029669
+    - Name: 
+      Entry: 4
+      Data: -0.5406603
+    - Name: 
+      Entry: 4
+      Data: 0.169592053
+    - Name: 
+      Entry: 4
+      Data: -0.306030184
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0177497715
+    - Name: 
+      Entry: 4
+      Data: 0.0490148775
+    - Name: 
+      Entry: 4
+      Data: -0.07170377
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_l_hand
+    - Name: $v
+      Entry: 7
+      Data: 9|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.3125748
+    - Name: 
+      Entry: 4
+      Data: 0.76965183
+    - Name: 
+      Entry: 4
+      Data: 0.0187509377
+    - Name: 
+      Entry: 4
+      Data: 0.5564005
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_l_grip
+    - Name: $v
+      Entry: 7
+      Data: 10|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.312574834
+    - Name: 
+      Entry: 4
+      Data: -0.76965183
+    - Name: 
+      Entry: 4
+      Data: -0.0187509041
+    - Name: 
+      Entry: 4
+      Data: 0.5564005
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.07215908
+    - Name: 
+      Entry: 4
+      Data: -0.0139621291
+    - Name: 
+      Entry: 4
+      Data: 0.0189921986
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_l_hand_ignore
+    - Name: $v
+      Entry: 7
+      Data: 11|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.227042481
+    - Name: 
+      Entry: 4
+      Data: 3.96341241E-17
+    - Name: 
+      Entry: 4
+      Data: 4.77597741E-17
+    - Name: 
+      Entry: 4
+      Data: 0.9738849
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.136113927
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1.42108544E-16
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_l_index1
+    - Name: $v
+      Entry: 7
+      Data: 12|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0109450538
+    - Name: 
+      Entry: 4
+      Data: 0.7329414
+    - Name: 
+      Entry: 4
+      Data: 0.660952151
+    - Name: 
+      Entry: 4
+      Data: 0.160684481
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0870787054
+    - Name: 
+      Entry: 4
+      Data: -0.0350999124
+    - Name: 
+      Entry: 4
+      Data: -0.00681396341
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_l_index2
+    - Name: $v
+      Entry: 7
+      Data: 13|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -2.72699372E-16
+    - Name: 
+      Entry: 4
+      Data: 5.169386E-17
+    - Name: 
+      Entry: 4
+      Data: -0.186246768
+    - Name: 
+      Entry: 4
+      Data: 0.982503
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.04157472
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 7.105427E-17
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_l_index3
+    - Name: $v
+      Entry: 7
+      Data: 14|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 2.68481757E-16
+    - Name: 
+      Entry: 4
+      Data: -4.38338955E-17
+    - Name: 
+      Entry: 4
+      Data: -0.05959589
+    - Name: 
+      Entry: 4
+      Data: 0.9982226
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.022153005
+    - Name: 
+      Entry: 4
+      Data: 7.105427E-17
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_l_index_ignore
+    - Name: $v
+      Entry: 7
+      Data: 15|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0291218087
+    - Name: 
+      Entry: 4
+      Data: -1.77635673E-16
+    - Name: 
+      Entry: 4
+      Data: -7.105427E-17
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: coll_hands:b_l_index3
+    - Name: $v
+      Entry: 7
+      Data: 16|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.408672333
+    - Name: 
+      Entry: 4
+      Data: 0.580337465
+    - Name: 
+      Entry: 4
+      Data: -0.411144257
+    - Name: 
+      Entry: 4
+      Data: 0.57197535
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0143716065
+    - Name: 
+      Entry: 4
+      Data: 0.00177601271
+    - Name: 
+      Entry: 4
+      Data: -0.0005765222
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: coll_hands:b_l_index2
+    - Name: $v
+      Entry: 7
+      Data: 17|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.4625703
+    - Name: 
+      Entry: 4
+      Data: 0.5395599
+    - Name: 
+      Entry: 4
+      Data: -0.463059366
+    - Name: 
+      Entry: 4
+      Data: 0.5296034
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0106962156
+    - Name: 
+      Entry: 4
+      Data: 0.00149290217
+    - Name: 
+      Entry: 4
+      Data: -0.000800233334
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: coll_hands:b_l_index1
+    - Name: $v
+      Entry: 7
+      Data: 18|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.6051069
+    - Name: 
+      Entry: 4
+      Data: 0.377448052
+    - Name: 
+      Entry: 4
+      Data: -0.598353446
+    - Name: 
+      Entry: 4
+      Data: 0.3651739
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.019931566
+    - Name: 
+      Entry: 4
+      Data: 0.0009474186
+    - Name: 
+      Entry: 4
+      Data: -0.00127153937
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_l_middle1
+    - Name: $v
+      Entry: 7
+      Data: 19|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.03365181
+    - Name: 
+      Entry: 4
+      Data: 0.6480088
+    - Name: 
+      Entry: 4
+      Data: 0.756594539
+    - Name: 
+      Entry: 4
+      Data: 0.08072687
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.09142233
+    - Name: 
+      Entry: 4
+      Data: -0.00953215547
+    - Name: 
+      Entry: 4
+      Data: -0.0108387806
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_l_middle2
+    - Name: $v
+      Entry: 7
+      Data: 20|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -2.64024643E-16
+    - Name: 
+      Entry: 4
+      Data: 2.06797734E-16
+    - Name: 
+      Entry: 4
+      Data: -0.23558192
+    - Name: 
+      Entry: 4
+      Data: 0.9718545
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0459674262
+    - Name: 
+      Entry: 4
+      Data: 1.42108544E-16
+    - Name: 
+      Entry: 4
+      Data: 7.105427E-17
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_l_middle3
+    - Name: $v
+      Entry: 7
+      Data: 21|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1.14433159E-16
+    - Name: 
+      Entry: 4
+      Data: 4.80883831E-17
+    - Name: 
+      Entry: 4
+      Data: -0.06577556
+    - Name: 
+      Entry: 4
+      Data: 0.997834444
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0295905974
+    - Name: 
+      Entry: 4
+      Data: 3.5527136E-17
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_l_middle_ignore
+    - Name: $v
+      Entry: 7
+      Data: 22|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.02646961
+    - Name: 
+      Entry: 4
+      Data: -1.7763568E-17
+    - Name: 
+      Entry: 4
+      Data: -2.13162816E-16
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: coll_hands:b_l_middle3
+    - Name: $v
+      Entry: 7
+      Data: 23|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.302531123
+    - Name: 
+      Entry: 4
+      Data: 0.642742038
+    - Name: 
+      Entry: 4
+      Data: -0.304096073
+    - Name: 
+      Entry: 4
+      Data: 0.6347308
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0129169039
+    - Name: 
+      Entry: 4
+      Data: 0.00261462
+    - Name: 
+      Entry: 4
+      Data: 0.0003291741
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: coll_hands:b_l_middle2
+    - Name: $v
+      Entry: 7
+      Data: 24|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.35790357
+    - Name: 
+      Entry: 4
+      Data: 0.614806652
+    - Name: 
+      Entry: 4
+      Data: -0.357755184
+    - Name: 
+      Entry: 4
+      Data: 0.604920745
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0141510591
+    - Name: 
+      Entry: 4
+      Data: 0.00235840655
+    - Name: 
+      Entry: 4
+      Data: 2.63527036E-05
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: coll_hands:b_l_middle1
+    - Name: $v
+      Entry: 7
+      Data: 25|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.597352
+    - Name: 
+      Entry: 4
+      Data: 0.3917153
+    - Name: 
+      Entry: 4
+      Data: -0.587837756
+    - Name: 
+      Entry: 4
+      Data: 0.379705876
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.02138451
+    - Name: 
+      Entry: 4
+      Data: 0.00155313266
+    - Name: 
+      Entry: 4
+      Data: -0.0006259703
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_l_pinky0
+    - Name: $v
+      Entry: 7
+      Data: 26|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.469321579
+    - Name: 
+      Entry: 4
+      Data: -0.0831114948
+    - Name: 
+      Entry: 4
+      Data: 0.08672836
+    - Name: 
+      Entry: 4
+      Data: 0.8748188
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0312715024
+    - Name: 
+      Entry: 4
+      Data: 0.01906803
+    - Name: 
+      Entry: 4
+      Data: 0.01150759
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_l_pinky1
+    - Name: $v
+      Entry: 7
+      Data: 27|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0189033914
+    - Name: 
+      Entry: 4
+      Data: 0.00674271863
+    - Name: 
+      Entry: 4
+      Data: 0.9928664
+    - Name: 
+      Entry: 4
+      Data: 0.117531024
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0535706468
+    - Name: 
+      Entry: 4
+      Data: 0.0024384
+    - Name: 
+      Entry: 4
+      Data: -0.00146303989
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_l_pinky2
+    - Name: $v
+      Entry: 7
+      Data: 28|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -1.75690528E-16
+    - Name: 
+      Entry: 4
+      Data: -8.32419E-17
+    - Name: 
+      Entry: 4
+      Data: -0.164582253
+    - Name: 
+      Entry: 4
+      Data: 0.986363351
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.03335595
+    - Name: 
+      Entry: 4
+      Data: 1.42108544E-16
+    - Name: 
+      Entry: 4
+      Data: -1.42108544E-16
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_l_pinky3
+    - Name: $v
+      Entry: 7
+      Data: 29|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -6.36854E-17
+    - Name: 
+      Entry: 4
+      Data: -2.47901364E-17
+    - Name: 
+      Entry: 4
+      Data: -0.04699399
+    - Name: 
+      Entry: 4
+      Data: 0.9988952
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0174182225
+    - Name: 
+      Entry: 4
+      Data: 1.33226755E-16
+    - Name: 
+      Entry: 4
+      Data: 7.105427E-17
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_l_pinky_ignore
+    - Name: $v
+      Entry: 7
+      Data: 30|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0194412377
+    - Name: 
+      Entry: 4
+      Data: -6.217249E-17
+    - Name: 
+      Entry: 4
+      Data: 7.105427E-17
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: coll_hands:b_l_pinky3
+    - Name: $v
+      Entry: 7
+      Data: 31|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.336143941
+    - Name: 
+      Entry: 4
+      Data: 0.595704138
+    - Name: 
+      Entry: 4
+      Data: -0.4467006
+    - Name: 
+      Entry: 4
+      Data: -0.576716959
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.00822
+    - Name: 
+      Entry: 4
+      Data: 0.00187
+    - Name: 
+      Entry: 4
+      Data: -0.00069
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: coll_hands:b_l_pinky2
+    - Name: $v
+      Entry: 7
+      Data: 32|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.352983534
+    - Name: 
+      Entry: 4
+      Data: 0.6201096
+    - Name: 
+      Entry: 4
+      Data: -0.3064455
+    - Name: 
+      Entry: 4
+      Data: -0.630046
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.01076
+    - Name: 
+      Entry: 4
+      Data: 0.00344
+    - Name: 
+      Entry: 4
+      Data: -0.00101
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: coll_hands:b_l_pinky1
+    - Name: $v
+      Entry: 7
+      Data: 33|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.385541141
+    - Name: 
+      Entry: 4
+      Data: 0.587495565
+    - Name: 
+      Entry: 4
+      Data: -0.310116827
+    - Name: 
+      Entry: 4
+      Data: -0.6403395
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.01604
+    - Name: 
+      Entry: 4
+      Data: 0.00559
+    - Name: 
+      Entry: 4
+      Data: -0.00078
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: coll_hands:b_l_pinky0
+    - Name: $v
+      Entry: 7
+      Data: 34|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.278363317
+    - Name: 
+      Entry: 4
+      Data: -0.6489302
+    - Name: 
+      Entry: 4
+      Data: 0.308979362
+    - Name: 
+      Entry: 4
+      Data: 0.637130558
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0236145649
+    - Name: 
+      Entry: 4
+      Data: -0.000455937348
+    - Name: 
+      Entry: 4
+      Data: -0.00130131328
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_l_ring1
+    - Name: $v
+      Entry: 7
+      Data: 35|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.101800978
+    - Name: 
+      Entry: 4
+      Data: 0.5692992
+    - Name: 
+      Entry: 4
+      Data: 0.8152097
+    - Name: 
+      Entry: 4
+      Data: 0.0311147887
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0895317346
+    - Name: 
+      Entry: 4
+      Data: 0.012713979
+    - Name: 
+      Entry: 4
+      Data: -0.00185332657
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_l_ring2
+    - Name: $v
+      Entry: 7
+      Data: 36|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -2.12956828E-16
+    - Name: 
+      Entry: 4
+      Data: 1.00818242E-16
+    - Name: 
+      Entry: 4
+      Data: -0.202904612
+    - Name: 
+      Entry: 4
+      Data: 0.9791985
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0385720246
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 7.105427E-17
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_l_ring3
+    - Name: $v
+      Entry: 7
+      Data: 37|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1.49786964E-16
+    - Name: 
+      Entry: 4
+      Data: -4.047208E-17
+    - Name: 
+      Entry: 4
+      Data: -0.08394361
+    - Name: 
+      Entry: 4
+      Data: 0.9964705
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.025775291
+    - Name: 
+      Entry: 4
+      Data: -1.7763568E-17
+    - Name: 
+      Entry: 4
+      Data: -1.42108544E-16
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_l_ring_ignore
+    - Name: $v
+      Entry: 7
+      Data: 38|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0242149066
+    - Name: 
+      Entry: 4
+      Data: -1.42108544E-16
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: coll_hands:b_l_ring3
+    - Name: $v
+      Entry: 7
+      Data: 39|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.222342327
+    - Name: 
+      Entry: 4
+      Data: 0.6754073
+    - Name: 
+      Entry: 4
+      Data: -0.2227965
+    - Name: 
+      Entry: 4
+      Data: 0.666896343
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0113698589
+    - Name: 
+      Entry: 4
+      Data: 0.003112024
+    - Name: 
+      Entry: 4
+      Data: 0.0008305833
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: coll_hands:b_l_ring2
+    - Name: $v
+      Entry: 7
+      Data: 40|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.289282054
+    - Name: 
+      Entry: 4
+      Data: 0.6509346
+    - Name: 
+      Entry: 4
+      Data: -0.287861526
+    - Name: 
+      Entry: 4
+      Data: 0.640106142
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0116511323
+    - Name: 
+      Entry: 4
+      Data: 0.00283559854
+    - Name: 
+      Entry: 4
+      Data: 0.000503882766
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: coll_hands:b_l_ring1
+    - Name: $v
+      Entry: 7
+      Data: 41|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.5757695
+    - Name: 
+      Entry: 4
+      Data: 0.423429132
+    - Name: 
+      Entry: 4
+      Data: -0.565278769
+    - Name: 
+      Entry: 4
+      Data: 0.411894649
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0170532148
+    - Name: 
+      Entry: 4
+      Data: 0.00197425485
+    - Name: 
+      Entry: 4
+      Data: -0.000103709055
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_l_thumb1
+    - Name: $v
+      Entry: 7
+      Data: 42|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.2459623
+    - Name: 
+      Entry: 4
+      Data: 0.945037
+    - Name: 
+      Entry: 4
+      Data: -0.0319942869
+    - Name: 
+      Entry: 4
+      Data: 0.213035211
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0262984056
+    - Name: 
+      Entry: 4
+      Data: -0.0414702967
+    - Name: 
+      Entry: 4
+      Data: 0.0205641482
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_l_thumb2
+    - Name: $v
+      Entry: 7
+      Data: 43|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 8.364196E-17
+    - Name: 
+      Entry: 4
+      Data: -1.55340731E-17
+    - Name: 
+      Entry: 4
+      Data: -0.14235
+    - Name: 
+      Entry: 4
+      Data: 0.9898164
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.03258824
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_l_thumb3
+    - Name: $v
+      Entry: 7
+      Data: 44|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -3.30190053E-17
+    - Name: 
+      Entry: 4
+      Data: 6.65119635E-18
+    - Name: 
+      Entry: 4
+      Data: 0.008720745
+    - Name: 
+      Entry: 4
+      Data: 0.999962
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0263715349
+    - Name: 
+      Entry: 4
+      Data: 1.42108544E-16
+    - Name: 
+      Entry: 4
+      Data: -1.06581408E-16
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_l_thumb_ignore
+    - Name: $v
+      Entry: 7
+      Data: 45|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0340795666
+    - Name: 
+      Entry: 4
+      Data: -7.105427E-17
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: coll_hands:b_l_thumb3
+    - Name: $v
+      Entry: 7
+      Data: 46|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.702268958
+    - Name: 
+      Entry: 4
+      Data: 0.0449364819
+    - Name: 
+      Entry: 4
+      Data: 0.7083559
+    - Name: 
+      Entry: 4
+      Data: 0.0550554
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0163567215
+    - Name: 
+      Entry: 4
+      Data: -0.00206915312
+    - Name: 
+      Entry: 4
+      Data: -0.000620629638
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: coll_hands:b_l_thumb2
+    - Name: $v
+      Entry: 7
+      Data: 47|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.702069163
+    - Name: 
+      Entry: 4
+      Data: 0.0461954847
+    - Name: 
+      Entry: 4
+      Data: 0.708371639
+    - Name: 
+      Entry: 4
+      Data: 0.0563425422
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.01246686
+    - Name: 
+      Entry: 4
+      Data: -0.002470099
+    - Name: 
+      Entry: 4
+      Data: -0.000326342881
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: coll_hands:b_l_thumb1
+    - Name: $v
+      Entry: 7
+      Data: 48|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.7048522
+    - Name: 
+      Entry: 4
+      Data: 0.0330038927
+    - Name: 
+      Entry: 4
+      Data: 0.7072892
+    - Name: 
+      Entry: 4
+      Data: 0.042849
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0162700824
+    - Name: 
+      Entry: 4
+      Data: 0.003417308
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: coll_hands:b_l_hand
+    - Name: $v
+      Entry: 7
+      Data: 49|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.79172045
+    - Name: 
+      Entry: 4
+      Data: 0.0506519228
+    - Name: 
+      Entry: 4
+      Data: 0.60516274
+    - Name: 
+      Entry: 4
+      Data: 0.0662668645
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0339651145
+    - Name: 
+      Entry: 4
+      Data: -0.009498389
+    - Name: 
+      Entry: 4
+      Data: 0.009856418
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: BoneDataRight
+      Entry: 7
+      Data: 50|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[BoneTransformData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 48
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: gripTrans
+    - Name: $v
+      Entry: 7
+      Data: 51|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0363
+    - Name: 
+      Entry: 4
+      Data: 0.0237
+    - Name: 
+      Entry: 4
+      Data: 0.0254
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: GrabVolumeBig
+    - Name: $v
+      Entry: 7
+      Data: 52|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0301
+    - Name: 
+      Entry: 4
+      Data: 0.0215
+    - Name: 
+      Entry: 4
+      Data: 0.0303
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: GrabVolumeSmall
+    - Name: $v
+      Entry: 7
+      Data: 53|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0047
+    - Name: 
+      Entry: 4
+      Data: -0.01449906
+    - Name: 
+      Entry: 4
+      Data: 0.03064309
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: r_hand_skeletal_lowres
+    - Name: $v
+      Entry: 7
+      Data: 54|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:hands_geom
+    - Name: $v
+      Entry: 7
+      Data: 55|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:Rhand
+    - Name: $v
+      Entry: 7
+      Data: 56|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:r_hand_world
+    - Name: $v
+      Entry: 7
+      Data: 57|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.7599481
+    - Name: 
+      Entry: 4
+      Data: 0.541514039
+    - Name: 
+      Entry: 4
+      Data: -0.170992792
+    - Name: 
+      Entry: 4
+      Data: -0.316232651
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0177499987
+    - Name: 
+      Entry: 4
+      Data: 0.0490099974
+    - Name: 
+      Entry: 4
+      Data: -0.0717
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_r_hand
+    - Name: $v
+      Entry: 7
+      Data: 58|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.5564005
+    - Name: 
+      Entry: 4
+      Data: -0.0187509377
+    - Name: 
+      Entry: 4
+      Data: 0.76965183
+    - Name: 
+      Entry: 4
+      Data: 0.3125748
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_r_grip
+    - Name: $v
+      Entry: 7
+      Data: 59|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.561891854
+    - Name: 
+      Entry: 4
+      Data: -0.03958033
+    - Name: 
+      Entry: 4
+      Data: 0.768297553
+    - Name: 
+      Entry: 4
+      Data: -0.304022819
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0733599961
+    - Name: 
+      Entry: 4
+      Data: 0.01578
+    - Name: 
+      Entry: 4
+      Data: -0.01952
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_r_hand_ignore
+    - Name: $v
+      Entry: 7
+      Data: 60|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.227042481
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0.9738849
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.136113286
+    - Name: 
+      Entry: 4
+      Data: 3.96659232E-07
+    - Name: 
+      Entry: 4
+      Data: 6.813971E-07
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_r_index1
+    - Name: $v
+      Entry: 7
+      Data: 61|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0109450538
+    - Name: 
+      Entry: 4
+      Data: 0.7329414
+    - Name: 
+      Entry: 4
+      Data: 0.660952151
+    - Name: 
+      Entry: 4
+      Data: 0.160684481
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.08707797
+    - Name: 
+      Entry: 4
+      Data: 0.035099972
+    - Name: 
+      Entry: 4
+      Data: 0.00681471033
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_r_index2
+    - Name: $v
+      Entry: 7
+      Data: 62|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -5.12436768E-17
+    - Name: 
+      Entry: 4
+      Data: -4.6785792E-17
+    - Name: 
+      Entry: 4
+      Data: -0.186246768
+    - Name: 
+      Entry: 4
+      Data: 0.982503
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.04157489
+    - Name: 
+      Entry: 4
+      Data: -2.622628E-07
+    - Name: 
+      Entry: 4
+      Data: -3.89787147E-07
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_r_index3
+    - Name: $v
+      Entry: 7
+      Data: 63|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -0.05959589
+    - Name: 
+      Entry: 4
+      Data: 0.9982226
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0221529379
+    - Name: 
+      Entry: 4
+      Data: -2.22783072E-07
+    - Name: 
+      Entry: 4
+      Data: -3.5388048E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_r_index_ignore
+    - Name: $v
+      Entry: 7
+      Data: 64|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0291217826
+    - Name: 
+      Entry: 4
+      Data: 2.658625E-07
+    - Name: 
+      Entry: 4
+      Data: 1.04564447E-06
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands_coll:b_r_index3
+    - Name: $v
+      Entry: 7
+      Data: 65|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.56640476
+    - Name: 
+      Entry: 4
+      Data: -0.426184475
+    - Name: 
+      Entry: 4
+      Data: -0.589156747
+    - Name: 
+      Entry: 4
+      Data: 0.3878749
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0047
+    - Name: 
+      Entry: 4
+      Data: -0.0019
+    - Name: 
+      Entry: 4
+      Data: -0.0004
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands_coll:b_r_index2
+    - Name: $v
+      Entry: 7
+      Data: 66|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.522550344
+    - Name: 
+      Entry: 4
+      Data: -0.478117168
+    - Name: 
+      Entry: 4
+      Data: -0.5497259
+    - Name: 
+      Entry: 4
+      Data: 0.442884415
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0124240145
+    - Name: 
+      Entry: 4
+      Data: -0.000241029717
+    - Name: 
+      Entry: 4
+      Data: 0.00165689411
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands_coll:b_r_index1
+    - Name: $v
+      Entry: 7
+      Data: 67|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.3526529
+    - Name: 
+      Entry: 4
+      Data: -0.612173438
+    - Name: 
+      Entry: 4
+      Data: -0.391114116
+    - Name: 
+      Entry: 4
+      Data: 0.5898384
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0222693924
+    - Name: 
+      Entry: 4
+      Data: 0.00122805871
+    - Name: 
+      Entry: 4
+      Data: 0.00165631436
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_r_middle1
+    - Name: $v
+      Entry: 7
+      Data: 68|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.03365181
+    - Name: 
+      Entry: 4
+      Data: 0.6480088
+    - Name: 
+      Entry: 4
+      Data: 0.756594539
+    - Name: 
+      Entry: 4
+      Data: 0.08072687
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.09142202
+    - Name: 
+      Entry: 4
+      Data: 0.009532635
+    - Name: 
+      Entry: 4
+      Data: 0.0108387871
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_r_middle2
+    - Name: $v
+      Entry: 7
+      Data: 69|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -1.89230429E-16
+    - Name: 
+      Entry: 4
+      Data: 3.02904858E-16
+    - Name: 
+      Entry: 4
+      Data: -0.23558192
+    - Name: 
+      Entry: 4
+      Data: 0.9718545
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.04596702
+    - Name: 
+      Entry: 4
+      Data: -6.43838038E-10
+    - Name: 
+      Entry: 4
+      Data: -3.982895E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_r_middle3
+    - Name: $v
+      Entry: 7
+      Data: 70|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -0.06577556
+    - Name: 
+      Entry: 4
+      Data: 0.997834444
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0295902342
+    - Name: 
+      Entry: 4
+      Data: -1.77992263E-07
+    - Name: 
+      Entry: 4
+      Data: -6.36197939E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_r_middle_ignore
+    - Name: $v
+      Entry: 7
+      Data: 71|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0264695231
+    - Name: 
+      Entry: 4
+      Data: 4.068423E-07
+    - Name: 
+      Entry: 4
+      Data: 1.95278133E-07
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands_coll:b_r_middle3
+    - Name: $v
+      Entry: 7
+      Data: 72|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.626171052
+    - Name: 
+      Entry: 4
+      Data: -0.317878217
+    - Name: 
+      Entry: 4
+      Data: -0.653382
+    - Name: 
+      Entry: 4
+      Data: 0.28276363
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0150972474
+    - Name: 
+      Entry: 4
+      Data: -0.002804128
+    - Name: 
+      Entry: 4
+      Data: 0.0009176499
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands_coll:b_r_middle2
+    - Name: $v
+      Entry: 7
+      Data: 73|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.5956531
+    - Name: 
+      Entry: 4
+      Data: -0.3707604
+    - Name: 
+      Entry: 4
+      Data: -0.6268835
+    - Name: 
+      Entry: 4
+      Data: 0.3387496
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands_coll:b_r_middle1
+    - Name: $v
+      Entry: 7
+      Data: 74|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.366666675
+    - Name: 
+      Entry: 4
+      Data: -0.5965634
+    - Name: 
+      Entry: 4
+      Data: -0.410368055
+    - Name: 
+      Entry: 4
+      Data: 0.58417964
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.024327429
+    - Name: 
+      Entry: 4
+      Data: 0.000277712941
+    - Name: 
+      Entry: 4
+      Data: 0.00200112723
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_r_pinky0
+    - Name: $v
+      Entry: 7
+      Data: 75|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.469321579
+    - Name: 
+      Entry: 4
+      Data: -0.0831114948
+    - Name: 
+      Entry: 4
+      Data: 0.08672836
+    - Name: 
+      Entry: 4
+      Data: 0.8748188
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0312747248
+    - Name: 
+      Entry: 4
+      Data: -0.0190692674
+    - Name: 
+      Entry: 4
+      Data: -0.011509167
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_r_pinky1
+    - Name: $v
+      Entry: 7
+      Data: 76|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0189033914
+    - Name: 
+      Entry: 4
+      Data: 0.00674271863
+    - Name: 
+      Entry: 4
+      Data: 0.9928664
+    - Name: 
+      Entry: 4
+      Data: 0.117531024
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.05356621
+    - Name: 
+      Entry: 4
+      Data: -0.00243950682
+    - Name: 
+      Entry: 4
+      Data: 0.00146448775
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_r_pinky2
+    - Name: $v
+      Entry: 7
+      Data: 77|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -3.4229197E-17
+    - Name: 
+      Entry: 4
+      Data: -1.20915449E-16
+    - Name: 
+      Entry: 4
+      Data: -0.164582253
+    - Name: 
+      Entry: 4
+      Data: 0.986363351
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.033355847
+    - Name: 
+      Entry: 4
+      Data: 4.193135E-07
+    - Name: 
+      Entry: 4
+      Data: 3.04474526E-07
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_r_pinky3
+    - Name: $v
+      Entry: 7
+      Data: 78|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3.53083136E-17
+    - Name: 
+      Entry: 4
+      Data: -8.50199461E-17
+    - Name: 
+      Entry: 4
+      Data: -0.04699399
+    - Name: 
+      Entry: 4
+      Data: 0.9988952
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0174184181
+    - Name: 
+      Entry: 4
+      Data: -4.9037294E-07
+    - Name: 
+      Entry: 4
+      Data: -8.02186435E-07
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_r_pinky_ignore
+    - Name: $v
+      Entry: 7
+      Data: 79|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.01944108
+    - Name: 
+      Entry: 4
+      Data: 1.80517048E-07
+    - Name: 
+      Entry: 4
+      Data: 6.84117E-07
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands_coll:b_r_pinky3
+    - Name: $v
+      Entry: 7
+      Data: 80|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.6640338
+    - Name: 
+      Entry: 4
+      Data: -0.192245692
+    - Name: 
+      Entry: 4
+      Data: -0.702477634
+    - Name: 
+      Entry: 4
+      Data: 0.169192165
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.00586166466
+    - Name: 
+      Entry: 4
+      Data: -0.00242643873
+    - Name: 
+      Entry: 4
+      Data: 0.0005006498
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands_coll:b_r_pinky2
+    - Name: $v
+      Entry: 7
+      Data: 81|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.653538465
+    - Name: 
+      Entry: 4
+      Data: -0.224274218
+    - Name: 
+      Entry: 4
+      Data: -0.6937078
+    - Name: 
+      Entry: 4
+      Data: 0.203366712
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.007676756
+    - Name: 
+      Entry: 4
+      Data: -0.00163671549
+    - Name: 
+      Entry: 4
+      Data: 0.00119101873
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands_coll:b_r_pinky1
+    - Name: $v
+      Entry: 7
+      Data: 82|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.4954975
+    - Name: 
+      Entry: 4
+      Data: -0.481598258
+    - Name: 
+      Entry: 4
+      Data: -0.540526152
+    - Name: 
+      Entry: 4
+      Data: 0.47997582
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0153489569
+    - Name: 
+      Entry: 4
+      Data: -9.46340151E-05
+    - Name: 
+      Entry: 4
+      Data: 0.00233673537
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands_coll:b_r_pinky0
+    - Name: $v
+      Entry: 7
+      Data: 83|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.6347127
+    - Name: 
+      Entry: 4
+      Data: 0.2995955
+    - Name: 
+      Entry: 4
+      Data: 0.644239247
+    - Name: 
+      Entry: 4
+      Data: 0.303872138
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0257539973
+    - Name: 
+      Entry: 4
+      Data: -0.00331614772
+    - Name: 
+      Entry: 4
+      Data: 0.005003233
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_r_ring1
+    - Name: $v
+      Entry: 7
+      Data: 84|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.101800978
+    - Name: 
+      Entry: 4
+      Data: 0.5692992
+    - Name: 
+      Entry: 4
+      Data: 0.8152097
+    - Name: 
+      Entry: 4
+      Data: 0.0311147887
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0895310938
+    - Name: 
+      Entry: 4
+      Data: -0.012713966
+    - Name: 
+      Entry: 4
+      Data: 0.00185330608
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_r_ring2
+    - Name: $v
+      Entry: 7
+      Data: 85|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1.39197186E-16
+    - Name: 
+      Entry: 4
+      Data: 5.619185E-17
+    - Name: 
+      Entry: 4
+      Data: -0.202904612
+    - Name: 
+      Entry: 4
+      Data: 0.9791985
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.03857198
+    - Name: 
+      Entry: 4
+      Data: 1.93449079E-08
+    - Name: 
+      Entry: 4
+      Data: -1.1757956E-07
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_r_ring3
+    - Name: $v
+      Entry: 7
+      Data: 86|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -2.95064748E-16
+    - Name: 
+      Entry: 4
+      Data: -2.99735347E-18
+    - Name: 
+      Entry: 4
+      Data: -0.08394361
+    - Name: 
+      Entry: 4
+      Data: 0.9964705
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0257753674
+    - Name: 
+      Entry: 4
+      Data: 2.30057623E-07
+    - Name: 
+      Entry: 4
+      Data: 2.65076949E-07
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_r_ring_ignore
+    - Name: $v
+      Entry: 7
+      Data: 87|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0242141932
+    - Name: 
+      Entry: 4
+      Data: -3.789957E-08
+    - Name: 
+      Entry: 4
+      Data: 1.870374E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands_coll:b_r_ring3
+    - Name: $v
+      Entry: 7
+      Data: 88|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.655924857
+    - Name: 
+      Entry: 4
+      Data: -0.234791279
+    - Name: 
+      Entry: 4
+      Data: -0.687858164
+    - Name: 
+      Entry: 4
+      Data: 0.2036835
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0128524806
+    - Name: 
+      Entry: 4
+      Data: -0.00284003955
+    - Name: 
+      Entry: 4
+      Data: 0.0004978456
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands_coll:b_r_ring2
+    - Name: $v
+      Entry: 7
+      Data: 89|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.6289977
+    - Name: 
+      Entry: 4
+      Data: -0.29799822
+    - Name: 
+      Entry: 4
+      Data: -0.665012956
+    - Name: 
+      Entry: 4
+      Data: 0.270770878
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.013310371
+    - Name: 
+      Entry: 4
+      Data: -0.00154436729
+    - Name: 
+      Entry: 4
+      Data: 0.001253404
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands_coll:b_r_ring1
+    - Name: $v
+      Entry: 7
+      Data: 90|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.4001211
+    - Name: 
+      Entry: 4
+      Data: -0.569160163
+    - Name: 
+      Entry: 4
+      Data: -0.4451101
+    - Name: 
+      Entry: 4
+      Data: 0.563770235
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0194092654
+    - Name: 
+      Entry: 4
+      Data: 0.000134190312
+    - Name: 
+      Entry: 4
+      Data: 0.00226997
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_r_thumb1
+    - Name: $v
+      Entry: 7
+      Data: 91|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.2459623
+    - Name: 
+      Entry: 4
+      Data: 0.945037
+    - Name: 
+      Entry: 4
+      Data: -0.0319942869
+    - Name: 
+      Entry: 4
+      Data: 0.213035211
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0262972154
+    - Name: 
+      Entry: 4
+      Data: 0.0414710864
+    - Name: 
+      Entry: 4
+      Data: -0.0205638688
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_r_thumb2
+    - Name: $v
+      Entry: 7
+      Data: 92|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -2.086314E-17
+    - Name: 
+      Entry: 4
+      Data: -1.44215552E-16
+    - Name: 
+      Entry: 4
+      Data: -0.14235
+    - Name: 
+      Entry: 4
+      Data: 0.9898164
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.03258561
+    - Name: 
+      Entry: 4
+      Data: 2.71548151E-06
+    - Name: 
+      Entry: 4
+      Data: -2.76819378E-07
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_r_thumb3
+    - Name: $v
+      Entry: 7
+      Data: 93|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -1.54898874E-16
+    - Name: 
+      Entry: 4
+      Data: -6.033373E-17
+    - Name: 
+      Entry: 4
+      Data: 0.008720745
+    - Name: 
+      Entry: 4
+      Data: 0.999962
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0263750833
+    - Name: 
+      Entry: 4
+      Data: -3.13834E-06
+    - Name: 
+      Entry: 4
+      Data: 2.46260754E-07
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: hands:b_r_thumb_ignore
+    - Name: $v
+      Entry: 7
+      Data: 94|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.034079235
+    - Name: 
+      Entry: 4
+      Data: 2.74447558E-07
+    - Name: 
+      Entry: 4
+      Data: 1.22323655E-07
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: coll_hands:b_r_thumb3
+    - Name: $v
+      Entry: 7
+      Data: 95|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0493747331
+    - Name: 
+      Entry: 4
+      Data: -0.7272826
+    - Name: 
+      Entry: 4
+      Data: 0.04688112
+    - Name: 
+      Entry: 4
+      Data: 0.682952642
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0149911465
+    - Name: 
+      Entry: 4
+      Data: 0.00238068029
+    - Name: 
+      Entry: 4
+      Data: -0.00121226825
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: coll_hands:b_r_thumb2
+    - Name: $v
+      Entry: 7
+      Data: 96|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.05041155
+    - Name: 
+      Entry: 4
+      Data: -0.727295339
+    - Name: 
+      Entry: 4
+      Data: 0.047735624
+    - Name: 
+      Entry: 4
+      Data: 0.682804167
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.011157861
+    - Name: 
+      Entry: 4
+      Data: 0.00232131756
+    - Name: 
+      Entry: 4
+      Data: -0.003112233
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: coll_hands:b_r_thumb1
+    - Name: $v
+      Entry: 7
+      Data: 97|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.04185644
+    - Name: 
+      Entry: 4
+      Data: -0.725710332
+    - Name: 
+      Entry: 4
+      Data: 0.0403932221
+    - Name: 
+      Entry: 4
+      Data: 0.685537
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.0150243565
+    - Name: 
+      Entry: 4
+      Data: -0.00331693888
+    - Name: 
+      Entry: 4
+      Data: -0.004186138
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: coll_hands:b_r_hand
+    - Name: $v
+      Entry: 7
+      Data: 98|BoneTransformData, Assembly-CSharp
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.15495798
+    - Name: 
+      Entry: 4
+      Data: 0.566270351
+    - Name: 
+      Entry: 4
+      Data: 0.0673380643
+    - Name: 
+      Entry: 4
+      Data: 0.806716561
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.03639598
+    - Name: 
+      Entry: 4
+      Data: 0.009737298
+    - Name: 
+      Entry: 4
+      Data: -0.004122503
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  PoseRootRight: {fileID: 0}
